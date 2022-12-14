@@ -4,7 +4,7 @@
 
 import tensorflow as tf
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 import random
 from tqdm import tqdm
@@ -161,11 +161,11 @@ def test_model(model, test_datagen):
     image = plot_bounding_box(image, gt_coords, pred_coords, norm=True)
     color = 'green' if gt == pred_class_name else 'red'
 
-    plt.imshow(image)
-    plt.xlabel(f'Pred: {pred_class_name}', color=color)
-    plt.ylabel(f'GT: { gt}', color=color)
-    plt.xticks([])
-    plt.yticks([])
+    #plt.imshow(image)
+    #plt.xlabel(f'Pred: {pred_class_name}', color=color)
+    #plt.ylabel(f'GT: { gt}', color=color)
+    #plt.xticks([])
+    #plt.yticks([])
 
 
 def gen_shot(test_datagen):
