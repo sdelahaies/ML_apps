@@ -7,7 +7,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 import os
 import random
-from tqdm import tqdm
+#from tqdm import tqdm
 from tensorflow.keras.layers import Input, Dense, Flatten, Conv2D, MaxPool2D, BatchNormalization, Dropout
 
 
